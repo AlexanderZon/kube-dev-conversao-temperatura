@@ -33,6 +33,8 @@ app.get('/', (req, res) => {
     res.render('index',{valorConvertido: ''});
 });
 
+// Teste
+
 app.post('/', (req, res) => {
     let resultado = '';
 
